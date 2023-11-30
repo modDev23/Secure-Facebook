@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ruda:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* font-family: 'Ruda', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+  /* background-color: #cacccf53; */
+}
+
+.main-container {
+  width: 100%;
+  /* background-color: #0043b0; */
+}
+
+.top-container {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+  background-color: aquamarine;
+  padding-top: 7%;
+}
+
+.top-content .left-logo {
+  background-color: rgb(69, 69, 109);
+}
+
+.left-logo img {
+  width: 47%;
+}
+
+.left-logo p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 130%;
+  /* margin-left: 5%; */
+}
+
+.right-form {
+ background-color: beige;
+ width: 85%;
+ margin: 1%;
+}
+
+.right-form form {
+  background-color: rgb(176, 51, 51);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.right-form .top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-form .top-section span {
+  text-align: center;
+}
+
+.right-form .top-section span a {
+  text-decoration: none;
+}
+
+.right-form .bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.right-form .page {
+  display: flex;
+  justify-content: center;
+}
