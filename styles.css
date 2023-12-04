@@ -15,7 +15,7 @@
 
 .top-container {
   width: 100%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .top-content {
@@ -23,12 +23,12 @@
   flex-direction: row;
   width: 75%;
   margin: auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   padding-top: 7%;
 }
 
 .top-content .left-logo {
-  background-color: rgb(69, 69, 109);
+  /* background-color: rgb(121, 121, 169); */
 }
 
 .left-logo img {
@@ -43,14 +43,16 @@
 }
 
 .right-form {
- background-color: beige;
+ /* background-color: beige; */
  width: 85%;
  margin: 1%;
 }
 
 .right-form form {
-  background-color: rgb(176, 51, 51);
-  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  padding: 4% 4% 5% 4%;
   border-radius: 8px;
 }
 
@@ -59,17 +61,57 @@
   flex-direction: column;
 }
 
+.right-form .top-section input{
+  padding: 4%;
+  margin-bottom: 4%;
+  font-size: 100%;
+  color: rgb(131, 126, 126);
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline-color: rgba(104, 133, 200, 0.824);
+}
+
+.right-form .top-section #login-btn {
+  padding: 3%;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  font-weight: 600;
+}
+
 .right-form .top-section span {
   text-align: center;
+  margin: 12px 0px;
 }
 
 .right-form .top-section span a {
+  color: #1877f2;
   text-decoration: none;
+  font-size: 14px;
+}
+
+.right-form .top-section span a:hover {
+  text-decoration: underline;
 }
 
 .right-form .bottom-section {
   display: flex;
   justify-content: center;
+  margin: 10px 0px;
+  padding: 20px 0px;
+  border-top: 1px solid rgb(180, 179, 179);
+}
+
+.right-form .bottom-section button {
+  background-color: rgb(66, 183, 42);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3%;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .right-form .page {
