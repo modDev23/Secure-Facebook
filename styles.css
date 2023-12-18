@@ -40,14 +40,14 @@ body {
 
 .right-form {
  width: 396px;
- margin: 6px 35px 0px 0px;
+ margin: 3px 31px 0px 0px;
 }
 
 .right-form form {
   font-family: 'Roboto', sans-serif;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
-  padding: 4% 4% 5% 4%;
+  padding: 16px 16px 21px 16px;
   border-radius: 8px;
 }
 
@@ -57,29 +57,30 @@ body {
 }
 
 .right-form .top-section input{
-  padding: 4%;
-  margin-bottom: 4%;
-  font-size: 100%;
-  color: rgb(131, 126, 126);
+  padding: 15px;
+  margin-bottom: 12px;
+  font-size: 17px;
+  color: rgb(201, 195, 195);
   border: 1px solid lightgrey;
   border-radius: 5px;
   outline-color: rgba(104, 133, 200, 0.824);
 }
 
 .right-form .top-section #login-btn {
-  padding: 3%;
+  margin-top: 4px;
+  padding: 13px 10px 13px 10px;
   background-color: #1877f2;
   border: none;
   border-radius: 5px;
   color: rgb(255, 255, 255);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
   cursor: pointer;
 }
 
 .right-form .top-section span {
   text-align: center;
-  margin: 12px 0px;
+  margin: 14px 0px 11px 0px;
 }
 
 .right-form .top-section span a {
@@ -106,8 +107,8 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 3%;
-  font-size: 20px;
+  padding: 15px 16px 15px 16px;
+  font-size: 17px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -115,13 +116,12 @@ body {
 .right-form .page {
   display: flex;
   justify-content: center;
-  /* background-color: #1877f2; */
-  margin-top: 27px;
+  margin-top: 29px;
 }
 
 .right-form .page span {
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   word-spacing: 1px;
 }
