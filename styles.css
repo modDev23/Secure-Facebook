@@ -136,3 +136,12 @@ body {
 .right-form .page span a:hover {
   text-decoration: underline;
 }
+
+@media (max-width:900px) {
+  .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 130px 60px;
+  }
+}
